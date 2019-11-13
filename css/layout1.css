@@ -1,0 +1,32 @@
+main {
+    width: 60%
+}
+
+aside {
+    width: 40%
+}
+
+main, aside, nav ul, nav li, .main-logo {
+    float: left;
+}
+
+footer, #primary-content {
+    clear: both;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 40px;
+}
+
+nav ul li {
+    margin-right: 2rem;
+}
+
+nav ul li a {
+    color: darkblue;
+}
+
+nav ul li a:hover {
+    color: darkblue;
+}
